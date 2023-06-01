@@ -1,0 +1,43 @@
+/* Collin's dead simple HTML Stylesheet */
+
+/* Fonts */
+@import url("fonts/square/drafting-mono.css");
+@import url("fonts/gantari/font-face.css");
+@import url("fonts/square/font-face.css");
+body {font-family:"Gantari", sans-serif;margin-top:0px;}
+.monospace {font-family:"Drafting Mono", monospace;}
+p {font-size: 20px;}
+h1,h2,h3,h4,h5,h6{font-family:"Square", sans-serif;line-height:0.75;text-transform:uppercase;}
+h2,h3,h4,h5,h6 {margin-top:50px !important;}
+h1 {font-size:72px;}
+h2 {font-size:64px;font-weight:300}
+h3 {font-size:56px;}
+h4 {font-size:48px;}
+h5 {font-size:42px;}
+h6 {font-size:36px;}
+
+/* Colors */
+:root {
+	--dark: #131314;
+	--darkcomp: #2a2a2a;
+	--light: #e8e8e8;
+	--lightcomp: #dfdfdf;
+}
+body {background-color:var(--light);margin:0;}
+body, a {color:var(--dark);}
+.warning {color: red}
+@media (prefers-color-scheme: dark) {body {background-color:var(--dark);} body, a {color:var(--light)}}
+.text-wrapper{border-left:3px dashed var(--dark);}
+@media (prefers-color-scheme: dark) {.text-wrapper{border-left:3px dashed var(--light);}}
+
+/* Sizing */
+.text-wrapper{padding:1px 20px;}
+.text-wrapper > * {margin-top:15px; margin-bottom:15px;overflow:hidden;}
+.text-wrapper:first-child {margin-top:60px}
+@media (min-width:1000px) {.text-wrapper {max-width:960px;margin:20px auto;}}
+
+/* Tables */
+th, td {padding:5px;}
+td {padding-bottom:10px;text-align:center;}
+th {background-color:var(--lightcomp);}
+@media (prefers-color-scheme: dark) {th {background-color:var(--darkcomp);}}

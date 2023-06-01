@@ -1,0 +1,29 @@
+/* Drafing Mono font face */
+
+/* 400 */
+@font-face {
+	font-family: 'Drafing Mono';
+	src: url('DraftingMono-Regular.woff2') format('woff2');
+	font-weight: regular;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Drafing Mono';
+	src: url('DraftingMono-Italic.woff2') format('woff2');
+	font-weight: 400;
+	font-style: italic;
+}
+
+/* 700 */
+@font-face {
+	font-family: 'Drafing Mono';
+	src: url('DraftingMono-Bold.woff2') format('woff2');
+	font-weight: 700;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Drafing Mono';
+	src: url('DraftingMono-BoldItalic.woff2') format('woff2');
+	font-weight: 700;
+	font-style: italic;
+}

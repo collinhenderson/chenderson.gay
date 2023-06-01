@@ -1,0 +1,29 @@
+/* Gantari font face */
+
+/* 400 */
+@font-face {
+	font-family: 'Gantari';
+	src: url('Gantari-Regular.woff2') format('woff2');
+	font-weight: regular;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Gantari';
+	src: url('Gantari-Italic.woff2') format('woff2');
+	font-weight: 400;
+	font-style: italic;
+}
+
+/* 700 */
+@font-face {
+	font-family: 'Gantari';
+	src: url('Gantari-Bold.woff2') format('woff2');
+	font-weight: 700;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Gantari';
+	src: url('Gantari-BoldItalic.woff2') format('woff2');
+	font-weight: 700;
+	font-style: italic;
+}

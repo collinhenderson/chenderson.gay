@@ -1,0 +1,25 @@
+/* Square font face */
+
+/* 300 */
+@font-face {
+	font-family: 'Square';
+	src: url('Square-Light.otf') format('opentype');
+	font-weight: 300;
+	font-style: normal;
+}
+
+/* 400 */
+@font-face {
+	font-family: 'Square';
+	src: url('Square-Regular.otf') format('opentype');
+	font-weight: 400;
+	font-style: normal;
+}
+
+/* 700 */
+@font-face {
+	font-family: 'Square';
+	src: url('Square-Bold.otf') format('opentype');
+	font-weight: 700;
+	font-style: normal;
+}
